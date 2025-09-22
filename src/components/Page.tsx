@@ -4,8 +4,7 @@ import Events from "./Events";
 import Home from "./Home";
 
 const Page = () => {
-  const { activeTab, setActiveTab } = useTabStore();
-  const tabs = ["PeakShots", "Events", "Team", "Gallery", "Reach Us"];
+  const { activeTab } = useTabStore();
   return (
     <div className="text-white">
       <div className="flex justify-center">

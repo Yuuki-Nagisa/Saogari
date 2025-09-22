@@ -1,4 +1,3 @@
-import React from "react";
 import HeroComponent from "./HeroComponent";
 import { motion, useScroll, useTransform } from "motion/react";
 

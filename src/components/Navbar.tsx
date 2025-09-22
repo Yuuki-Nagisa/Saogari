@@ -1,6 +1,5 @@
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion } from "motion/react";
 import logo from "../public/logo.png";
-import { useState } from "react";
 import { useTabStore } from "../store";
 //backdrop-blur-md to add blur effect
 const Navbar = () => {
