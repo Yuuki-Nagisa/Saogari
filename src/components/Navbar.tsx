@@ -23,8 +23,8 @@ const Navbar = () => {
         {tabs.map((tab) => (
           <span
             key={tab}
-            className={`text-white font-semibold text-xl cursor-pointer hover:border-b-white hover:border-b-2 hover:font-bold ${
-              activeTab.match(tab) ? "border-b-2 font-bold" : ""
+            className={`text-white text-xl cursor-pointer hover:border-b-white hover:border-b-2 hover:font-bold ${
+              activeTab.match(tab) ? "border-b-2 font-bold" : "font-semibold"
             } transition duration-200 mx-2 `}
             onClick={() => setActiveTab(tab)}
           >

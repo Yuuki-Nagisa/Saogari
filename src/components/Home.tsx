@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <>
       <HeroComponent />
-      <div className="h-[600px] p-20 text-center flex flex-col items-center justify-center bg-black">
+      <div className="h-[1200px] md:h-[600px] p-10 md:p-20 text-center flex flex-col items-center justify-center bg-black">
         <h1 className="font-bold text-5xl text-green-500">About Us</h1>
         <div className="w-30 h-2 bg-green-500 my-6"></div>
-        <div className="flex items-center mt-4 h-full">
+        <div className="flex flex-col md:flex-row items-center mt-4 h-full ">
           <motion.div
             initial={{ opacity: 0.5, y: 50 }}
             whileInView={{
@@ -19,7 +19,7 @@ const Home = () => {
             }}
             viewport={{ once: true }}
             whileHover={{ y: -20, scale: 1.02, transition: { duration: 0.3 } }}
-            className="w-5/6 md:w-1/2 mt-2 text-lg md:text-2xl bg-gray-900 rounded-3xl flex flex-col p-4 items-center justify-center shadow-lg shadow-[#1a1c1e] backdrop-blur-md"
+            className="w-5/6 md:w-1/2 mt-2 text-lg md:text-2xl bg-gray-900 rounded-3xl flex flex-col p-4 items-center justify-center shadow-lg shadow-[#1a1c1e] "
           >
             <h1 className="text-4xl font-semibold mb-4">
               Welcome to{" "}
