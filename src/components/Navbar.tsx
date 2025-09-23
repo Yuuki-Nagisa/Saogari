@@ -3,15 +3,15 @@ import logo from "../public/logo.png";
 import { useTabStore } from "../store";
 //backdrop-blur-md to add blur effect
 const Navbar = () => {
-  const tabs = ["Home", "PeakShots", "Events", "Team", "Gallery", "Reach Us"];
+  const tabs = ["Home", "PeakShots", "Events", "Team", "Gallery"];
   const { activeTab, setActiveTab } = useTabStore();
   return (
-    <motion.header className="fixed z-10 w-5/6  flex justify-around p-2 bg-[#1a1c1e]/50 border-b-4 border-l-7 border-r-10 border-b-green-600 border-r-blue-500 border-l-blue-500 rounded-4xl ">
+    <motion.header className="fixed z-10 w-5/6 flex justify-around p-2 bg-[#1a1c1e]/50 border-b-4 border-l-7 border-r-10 border-b-green-600 border-r-blue-500 border-l-blue-500 rounded-4xl ">
       <div className="flex justify-center items-center">
         <img
           src={logo}
           alt="logo"
-          className="w-10 h-10 rounded-lg object-cover"
+          className="w-12 h-12 rounded-lg object-cover"
         />
         <div className="cursor-pointer">
           <span className="ml-5 text-white font-bold text-3xl uppercase">
