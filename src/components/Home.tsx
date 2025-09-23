@@ -1,5 +1,5 @@
 import HeroComponent from "./HeroComponent";
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion } from "motion/react";
 import logo from "../public/logo.png";
 
 const Home = () => {
