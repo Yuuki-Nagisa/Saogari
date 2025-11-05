@@ -9,7 +9,7 @@ const Home = () => {
       <div className="h-[1200px] md:h-[600px] p-10 md:p-20 text-center flex flex-col items-center justify-center bg-black">
         <h1 className="font-bold text-5xl text-green-500">About Us</h1>
         <div className="w-30 h-2 bg-green-500 my-6"></div>
-        <div className="flex flex-col md:flex-row items-center mt-4 h-full ">
+        <div className="flex flex-col md:flex-row items-center mt-4 h-full">
           <motion.div
             initial={{ opacity: 0.5, y: 50 }}
             whileInView={{
